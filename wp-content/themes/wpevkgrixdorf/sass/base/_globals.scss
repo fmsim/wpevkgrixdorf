@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Cabin', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Karla', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border-top: 1px solid rgba(246,182,255, .8) !important;
+}

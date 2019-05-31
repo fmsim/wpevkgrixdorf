@@ -1,0 +1,55 @@
+.links-container {
+  margin-top: 6.8rem;
+
+  h2, h4 {
+    color: $rixBlau2;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: .7rem;
+  }
+
+  a {
+    color: $rixBlau2;
+    font-weight: bold;
+
+    &:hover {
+      color: $rixRot2;
+      font-size: .9rem
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .links-container {
+    margin-top: 6.2rem;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    a {
+
+      &:hover {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

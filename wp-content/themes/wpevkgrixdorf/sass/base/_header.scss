@@ -1,0 +1,90 @@
+#evkgrixSupportedContent {
+  margin-right: 1.5rem;
+}
+
+img.logo-image {
+  width: 30%;
+  margin-right: .3rem;
+}
+nav.navbar {
+  margin-top: 2.8rem;
+  height: 4rem;
+
+  li {
+    border-right: 1px solid rgba(72, 61, 139, .7);
+    background-color: $rixFlieder;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  a {
+    color: $rixBlau2;
+    text-transform: uppercase;
+    padding: 2px;
+    font-size: .75rem;
+    font-weight: bold;
+
+    &.dropdown-item {
+      background-color: $rixFlieder;
+      padding-left: .3rem;
+      font-size: .75rem;
+
+      &:hover {
+        font-size: .8rem;
+      }
+    }
+
+    &:hover {
+      color: $rixRot2;
+      font-size: .9rem;
+    }
+
+    &.navbar-brand p:hover {
+      color: $rixRot2;
+      font-size: .65rem;
+    }
+  }
+  li.current_page_item a {
+    border-bottom: 2px solid $rixRot2;
+  }
+
+  div.dropdown-menu.show {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav.navbar {
+    margin-top: 2rem;
+
+    div.dropdown-menu.show {
+      text-align: left;
+    }
+
+    a {
+      font-size: 1rem;
+
+      &.dropdown-item {
+        font-size: .8rem;
+
+        &:hover {
+          font-size: .9rem;
+        }
+      }
+
+      &:hover {
+        color: $rixRot2;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+.navbar-brand-paragraph {
+  font-size: .6rem;
+  text-transform: uppercase;
+  padding-top: .5rem;
+
+
+}
